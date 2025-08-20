@@ -16,7 +16,7 @@ class TestBubbleSort(unittest.TestCase):
         self.assertEqual(bubble_sort([4, 2, 2, 1]), [1, 2, 2, 4])
 
     def test_with_negatives(self):
-        self.assertEqual(bubble_sort([3, -1, -7, 4]), [-1, -1, 3, 4])
+        self.assertEqual(bubble_sort([3, -1, -7, 4]), [-7, -1, 3, 4])
 
 if __name__ == "__main__":
     unittest.main()
